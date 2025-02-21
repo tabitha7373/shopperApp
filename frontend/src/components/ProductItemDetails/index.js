@@ -38,7 +38,7 @@ class ProductItemDetails extends Component {
       apiStatus: apiStatusConstants.inProgress,
     })
     const jwtToken = Cookies.get('jwt_token')
-    const apiUrl = `https://shopper-backend-app.onrender.com/products/${id}/`
+    const apiUrl = `https://shopping-service-app.onrender.com/products/${id}/`
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,
@@ -112,7 +112,7 @@ class ProductItemDetails extends Component {
       method: 'POST',
       body:JSON.stringify(productDetails)
     }
-    const response=await fetch("https://shopper-backend-app.onrender.com/cart/add",options)
+    const response=await fetch("https://shopping-service-app.onrender.com/cart/add",options)
     if(response.ok){ 
     const data=await response.json()
     const {message}=data
