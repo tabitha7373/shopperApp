@@ -4,7 +4,7 @@ Shopper is a full-stack e-commerce web application designed with inspiration fro
 
 ## Live Application
 
-Check out the live app here: [Shopper App](https://ushasree-mangi-shopper-app.vercel.app/)
+Check out the live app here: [Shopper App](https://tabitha-shopper-app.vercel.app/)
 
 ## Features
 
