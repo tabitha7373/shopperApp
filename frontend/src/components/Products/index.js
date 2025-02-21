@@ -33,7 +33,7 @@ class Products extends Component {
     })
     const jwtToken = Cookies.get('jwt_token')
     
-    const apiUrl = 'https://shopper-backend-app.onrender.com/products/'
+    const apiUrl = 'https://shopping-service-app.onrender.com/products/'
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,
