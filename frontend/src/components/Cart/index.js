@@ -29,7 +29,7 @@ class Cart extends Component {
       apiStatus: apiStatusConstants.inProgress,
     })
     const jwtToken = Cookies.get('jwt_token')
-    const apiUrl = `https://shopper-backend-app.onrender.com/cart/`
+    const apiUrl = `https://shopping-service-app.onrender.com/cart/`
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,
@@ -59,7 +59,7 @@ class Cart extends Component {
       apiStatus: apiStatusConstants.inProgress,
     })
    
-    const apiUrl = `https://shopper-backend-app.onrender.com/cart/`
+    const apiUrl = `https://shopping-service-app.onrender.com/cart/`
     const jwtToken = Cookies.get('jwt_token')
     
     const options = {
