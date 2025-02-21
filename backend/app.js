@@ -24,7 +24,7 @@ const uuidv4=v4
 
 const corsOptions = {
   
-  origin: 'https://ushasree-mangi-shopper-app.vercel.app', // Temporarily allow all origins for debugging
+  origin: 'https://tabitha-shopper-app.vercel.app/', // Temporarily allow all origins for debugging
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
